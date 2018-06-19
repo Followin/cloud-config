@@ -3,3 +3,9 @@ steps:
     args: ['bash', '-c', 'env']
     env:
       - 'REV=$REVISION_ID'
+
+steps:
+  - name: 'ubuntu'
+    args: ['bash', '-c', 'ls']
+    env:
+      - 'REV=$REVISION_ID'
