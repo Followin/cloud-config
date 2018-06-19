@@ -1,5 +1,5 @@
 steps:
   - name: 'ubuntu'
-    args: ['bash', 'ls']
+    args: ['bash', 'echo', '*']
     env:
       - 'REV=$REVISION_ID'
